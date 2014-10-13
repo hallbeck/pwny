@@ -1,0 +1,107 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="testing" verbose="10">
+    <test name="run1" preserve-order="true">
+        <classes>
+            <class name="sendRss.TestSikuli">
+                <methods>
+                    <!--this is helps-->
+                   <!-- <include name="mains" />-->
+                    <include name="woodFarm3" />
+                    <include name="killBS" />
+                    <include name="stoneFarm" />
+                    <include name="killBS4" />
+                    <include name="stoneFarm2" />
+                    <include name="killBS5" />
+                    <include name="stoneFarm3" />
+                    <include name="killBS6" />
+                    <include name="woodFarm1" />
+                    <include name="killBS2" />
+                    <include name="woodFarm2" />
+                    <include name="killBS3" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+<test name="run2" preserve-order="true">
+    <classes>
+       <class name="sendRss.TestSikuli">
+            <methods>
+                <include name="woodFarm" />
+                <include name="killBS" />
+                <include name="woodFarm2" />
+                <include name="killBS2" />
+                <include name="woodFarm3" />
+                <include name="killBS3" />
+                <include name="stoneFarm" />
+                <include name="killBS4" />
+                <include name="stoneFarm2" />
+                <include name="killBS5" />
+                <include name="stoneFarm3" />
+                <include name="killBS6" />
+                <!-- <include name="rallyTest" />-->
+            </methods>
+        </class>
+    </classes>
+</test>
+    <test name="run3" preserve-order="true">
+        <classes>
+            <class name="sendRss.TestSikuli">
+                <methods>
+                    <include name="woodFarm" />
+                    <include name="killBS" />
+                    <include name="woodFarm2" />
+                    <include name="killBS2" />
+                    <include name="woodFarm3" />
+                    <include name="killBS3" />
+                    <include name="stoneFarm" />
+                    <include name="killBS4" />
+                    <include name="stoneFarm2" />
+                    <include name="killBS5" />
+                    <include name="stoneFarm3" />
+                    <include name="killBS6" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="run4" preserve-order="true">
+        <classes>
+            <class name="sendRss.TestSikuli">
+                <methods>
+                    <include name="woodFarm" />
+                    <include name="killBS" />
+                    <include name="woodFarm2" />
+                    <include name="killBS2" />
+                    <include name="woodFarm3" />
+                    <include name="killBS3" />
+                    <include name="stoneFarm" />
+                    <include name="killBS4" />
+                    <include name="stoneFarm2" />
+                    <include name="killBS5" />
+                    <include name="stoneFarm3" />
+                    <include name="killBS6" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="run5" preserve-order="true">
+        <classes>
+            <class name="sendRss.TestSikuli">
+                <methods>
+                    <include name="woodFarm" />
+                    <include name="killBS" />
+                    <include name="woodFarm2" />
+                    <include name="killBS2" />
+                    <include name="woodFarm3" />
+                    <include name="killBS3" />
+                    <include name="stoneFarm" />
+                    <include name="killBS4" />
+                    <include name="stoneFarm2" />
+                    <include name="killBS5" />
+                    <include name="stoneFarm3" />
+                    <include name="killBS6" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
